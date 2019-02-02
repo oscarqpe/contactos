@@ -14,7 +14,15 @@
 	<packaging>war</packaging>
 	<name>contacts-ws</name>
 	<description>Servicio Web REST Simple</description>
-
+	<profiles>
+		<profile>
+			<id>test</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+		
+	</profiles>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
